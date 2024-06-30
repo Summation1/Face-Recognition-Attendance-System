@@ -138,6 +138,6 @@ Inside face_recognition_system, create an empty folder named data. This folder w
 - Execute the main application file (main.py or login.py) to start the Face Recognition Attendance System:
 
 ## Note 
-- Make sure that you fill students details `Roll Number` wise like 1,2,3.... etc. because it will iterate through the roll number other wise it will throw an `Error`
+- Make sure that you fill students details `Roll Number` wise like 1,2,3.... etc. because it will iterate through the roll number other wise it will not show the student details above it's head
 
 
