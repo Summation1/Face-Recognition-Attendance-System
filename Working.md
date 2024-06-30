@@ -53,6 +53,9 @@ To use the Face Recognition Attendance System:
 - Set up MySQL database with required tables (`register`, `student`).
 - Run the main Python file (`main.py`) to start the application.
 
+## Note 
+- Make sure that you fill students details `Roll Number` wise like 1,2,3.... etc. because it will iterate through the roll number other wise it will throw an `Error`
+
 ## Conclusion
 The Face Recognition Attendance System simplifies attendance management through automated face recognition technology, enhancing efficiency and accuracy in educational and organizational settings.
 
