@@ -1,4 +1,5 @@
                                         
+Face Recognition Attendance System
 
 Overview:
 This project implements a face recognition system for managing attendance using Python with tkinter for GUI and MySQL for database management.
@@ -19,7 +20,7 @@ Inside face_recognition_system, create an empty folder named data. This folder w
 2. Install Required Libraries
 Ensure all Python libraries used in the project are installed:
 
-pip install mysql-connector-python pillow opencv-python numpy
+        pip install mysql-connector-python pillow opencv-python numpy
 
 3. Setting Up Databases
 4. Creating MySQL Databases and Tables
