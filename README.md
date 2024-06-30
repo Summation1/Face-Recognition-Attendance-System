@@ -1,10 +1,10 @@
                                        
-Face Recognition Attendance System
+# Face Recognition Attendance System
 
-Overview:
+# Overview:
 This project implements a face recognition system for managing attendance using Python with tkinter for GUI and MySQL for database management.
 
-.Steps to run the code
+# Steps to run the code
 1. Setting Up the Project
 Clone the Repository:
 Clone the repository to your local machine:
@@ -23,13 +23,14 @@ Ensure all Python libraries used in the project are installed:
         pip install mysql-connector-python pillow opencv-python numpy
 
 3. Setting Up Databases
+  
 4. Creating MySQL Databases and Tables
 
-Login Page Database (face_recogniser)
+# Login Page Database (face_recogniser)
 
 Connect to MySQL and create the face_recogniser schema:
 
-#Code 
+# Code 
 
      USE face_recogniser;
 
@@ -59,7 +60,7 @@ Student Details Database (Face_Recogniser)
 
 Connect to MySQL and create the Face_Recogniser schema:
 
-#Code 
+# Code 
 
 
     USE Face_Recogniser;
@@ -101,7 +102,7 @@ Connect to MySQL and create the Face_Recogniser schema:
     
     );
 
-4. Integrating with Python Files
+# Integrating with Python Files
 
 Ensure the login.py and student.py files are correctly configured to connect to your MySQL database:
 
@@ -128,6 +129,6 @@ import mysql.connector
 
 
 # Use 'conn' to create cursor and execute queries
-5. Running the Application
+4. Running the Application
 Execute the main application file (main.py or login.py) to start the Face Recognition Attendance System:
 
