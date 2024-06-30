@@ -32,6 +32,14 @@ Inside face_recognition_system, create an empty folder named data. This folder w
 
 ### Code 
 
+    CREATE DATABASE IF NOT EXISTS face_recogniser
+
+- `Login register` Database
+-  Connect to MySQL and create the Face_Recogniser schema:
+
+  ### code
+
+
      USE face_recogniser;
 
      CREATE TABLE register
@@ -55,7 +63,7 @@ Inside face_recognition_system, create an empty folder named data. This folder w
     );
 
 
-- Student Details Database (Face_Recogniser)
+- `Student Details` Database (Face_Recogniser)
 
 
 - Connect to MySQL and create the Face_Recogniser schema:
